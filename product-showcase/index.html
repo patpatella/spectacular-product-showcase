@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aesthetic Product Showcase</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Spectaculars</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- SLIDESHOW -->
+  <div class="slideshow">
+    <div class="slides" id="slides">
+      <div class="slide" style="background-image:url(images/slide5.jpeg);">New Arrivals</div>
+      <div class="slide" style="background-image:url('images/slide4.jpg');">Exclusive Deals</div>
+      <div class="slide" style="background-image:url('images/slide3.png');">Shop Now</div>
+    </div>
+    <div class="slideshow-controls">
+      <button class="control" id="prev">&#10094;</button>
+      <button class="control" id="next">&#10095;</button>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Featured Products</h1>
+    <p>Explore our collection: Photochromic Glasses, Sunglasses, and Vintage Styles</p>
+  </header>
+  <!-- Products Grid -->
+  <section class="products">
+    <div class="product-card" data-category="photochromic">
+      <img src="images/eye3.1.jpg" alt="Photochromic">
+      <h3>Smart Lens</h3>
+      <p>Adaptive photochromic glasses.</p>
+      <span>P200</span>
+    </div>
+
+    <div class="product-card" data-category="sunglasses">
+      <img src="images/eye5.jpg" alt="Sunglasses">
+      <h3>Classic Shades</h3>
+      <p>Timeless summer sunglasses.</p>
+      <span>P150</span>
+    </div>
+
+    <div class="product-card" data-category="vintage">
+      <img src="images/eye3.jpg" alt="Vintage">
+      <h3>Retro Frame</h3>
+      <p>Stylish vintage eyeglasses.</p>
+      <span>P150</span>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Spectaculars. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="js/scripts.js"></script>
+</body>
+</html>
